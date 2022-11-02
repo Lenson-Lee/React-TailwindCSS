@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <div className="bg-yellow-300 w-1/3 text-2xl text-sky-400">Hello</div>
       <div className="bg-sky-400 w-1/3 text-6xl text-blue-500">World</div>
+      <div className="bg-yellow-300 w-1/3 text-2xl text-sky-400">Hello</div>
     </div>
   );
 }
