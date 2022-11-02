@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import "./asset/tailwind.css"; //커스텀 css용
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="bg-yellow-300 w-1/3 text-2xl text-sky-400">Hello</div>
+      <div className="bg-sky-400 w-1/3 text-6xl text-blue-500">World</div>
     </div>
   );
 }
